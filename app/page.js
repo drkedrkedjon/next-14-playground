@@ -7,6 +7,8 @@ export default function Home() {
     <div className={styles.page}>
       <h1>Index Page</h1>
       <Link href="/mdx-direct">MDX Direct</Link>
+      <br />
+      <Link href="/mdx-imported">MDX Imported</Link>
     </div>
   );
 }
