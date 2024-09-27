@@ -1,0 +1,16 @@
+.page {
+  padding: 1rem 10rem;
+  color: antiquewhite;
+
+  & h1 {
+    color: lime;
+  }
+
+  & h2 {
+    color: lightcoral;
+  }
+
+  & li {
+    color: lightblue;
+  }
+}
