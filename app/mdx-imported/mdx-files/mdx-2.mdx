@@ -1,3 +1,10 @@
+import CustomWrapper from "./wrappers";
+export const metadata = {
+  title: "Hello Fucking World",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lerum berum papus terum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lerum berum papus terum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lerum berum papus terum",
+};
+
 ## Otro mdx file
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -9,3 +16,25 @@ const a = 1;
 > blockquote de no se que
 
 **bold I guess**
+
+<hr />
+
+<CustomWrapper customClass={"two"}>
+  ## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lerum berum papus
+  terum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lerum berum
+  papus terum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lerum
+  berum papus terum
+</CustomWrapper>
+
+<hr />
+
+<CustomWrapper customClass={"one"}>
+## Este es contenido de un custom wrapper escrito en otro markdown.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lerum berum papus terum...
+
+- item 1
+- item 2
+- item 3
+
+</CustomWrapper>
