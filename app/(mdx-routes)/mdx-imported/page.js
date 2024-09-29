@@ -8,11 +8,7 @@ export default function Page() {
     <div className={styles.page}>
       <h1>MDX Imported</h1>
       <Link href="/">Home Page</Link>
-      {/* <hr />
-      <First />
-      <hr /> */}
-
-      <h1>Titulo: {metadata.title}</h1>
+      <h2>Titulo: {metadata.title}</h2>
       <p>Description: {metadata.description}</p>
       <Second />
     </div>
