@@ -8,6 +8,7 @@ export default function Page() {
     <div className={styles.page}>
       <h1>MDX Imported</h1>
       <Link href="/">Home Page</Link>
+      <First />
       <h2>Titulo: {metadata.title}</h2>
       <p>Description: {metadata.description}</p>
       <Second />
