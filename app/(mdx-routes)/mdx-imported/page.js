@@ -3,6 +3,7 @@ import First from "./mdx-files/mdx-1.mdx";
 import styles from "./page.module.css";
 import Second, { metadata } from "./mdx-files/mdx-2.mdx";
 
+
 export default function Page() {
   return (
     <div className={styles.page}>
