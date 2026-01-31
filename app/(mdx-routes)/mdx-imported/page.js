@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import First from "./mdx-files/mdx-1.mdx";
 import styles from "./page.module.css";
